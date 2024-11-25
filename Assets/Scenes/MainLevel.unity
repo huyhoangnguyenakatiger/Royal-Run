@@ -583,6 +583,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraController: {fileID: 2037005897}
+  scoreManager: {fileID: 1291827849}
   chunkPrefab: {fileID: 4495013394813696731, guid: d74bba46372e964458456bab77fb035a, type: 3}
   chunkParent: {fileID: 82689735}
   startingChunksAmount: 10
