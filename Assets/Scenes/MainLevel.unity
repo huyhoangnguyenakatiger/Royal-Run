@@ -733,7 +733,7 @@ MonoBehaviour:
   minMoveSpeed: 2
   maxMoveSpeed: 20
   minGravityZ: -22
-  maxGravityZ: -2
+  maxGravityZ: -9.81
 --- !u!4 &499385705
 Transform:
   m_ObjectHideFlags: 0
@@ -1359,7 +1359,7 @@ MonoBehaviour:
   - {fileID: 5870262204434038030, guid: ae05ad863a20aa64e94ccead80707abf, type: 3}
   - {fileID: 7457926387372235216, guid: 7b2ff25c77563e840ba76e784a71284b, type: 3}
   - {fileID: 847676204216278244, guid: 8b48afd0bcbbfe448bbae433ff45c498, type: 3}
-  - {fileID: 4513170133538383322, guid: 8ed1bb0e43ece4143be4fda37db55ed8, type: 3}
+  - {fileID: 8434788739135569398, guid: 2b2cb80a83063074b8216ed3388dca89, type: 3}
   obstacleSpawnTime: 2
   obstacleParent: {fileID: 821505455}
   spawnWidth: 4
@@ -1440,7 +1440,7 @@ MonoBehaviour:
   playerController: {fileID: 571073764}
   timeText: {fileID: 287848911}
   gameOverText: {fileID: 572466584}
-  startTime: 5
+  startTime: 30
 --- !u!1 &1897450345
 GameObject:
   m_ObjectHideFlags: 0
