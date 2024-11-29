@@ -8,6 +8,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 343435460111652931, guid: d07da7f333f2c9949a3270a95df9dca5, type: 3}
+      propertyPath: m_Mass
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1902516129610833534, guid: d07da7f333f2c9949a3270a95df9dca5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -52,9 +56,13 @@ PrefabInstance:
       propertyPath: m_Center.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 5830938709020817331, guid: d07da7f333f2c9949a3270a95df9dca5, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 4118ced793320aa4e9adf594c381da09, type: 2}
     - target: {fileID: 7377743249823278934, guid: d07da7f333f2c9949a3270a95df9dca5, type: 3}
       propertyPath: m_Name
-      value: Base Obstacle Variant
+      value: Crate
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:

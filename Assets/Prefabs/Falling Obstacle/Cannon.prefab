@@ -73,11 +73,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 343435460111652931, guid: d07da7f333f2c9949a3270a95df9dca5, type: 3}
       propertyPath: m_Mass
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 343435460111652931, guid: d07da7f333f2c9949a3270a95df9dca5, type: 3}
       propertyPath: m_AngularDrag
-      value: 0
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 1902516129610833534, guid: d07da7f333f2c9949a3270a95df9dca5, type: 3}
       propertyPath: m_LocalPosition.x
