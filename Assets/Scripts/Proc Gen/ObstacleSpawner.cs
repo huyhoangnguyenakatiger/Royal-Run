@@ -4,7 +4,8 @@ using UnityEngine;
 public class ObstacleSpawner : MonoBehaviour
 {
     [SerializeField] GameObject[] obstaclePrefabs;
-    [SerializeField] float obstacleSpawnTime = 2f;
+    [SerializeField] float obstacleSpawnTime = 3f;
+    [SerializeField] float minObstacleSpawnTime = .2f;
     [SerializeField] GameObject obstacleParent;
     [SerializeField] float spawnWidth = 4f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -17,6 +18,15 @@ public class ObstacleSpawner : MonoBehaviour
     void Update()
     {
 
+    }
+
+    public void DecreaseObstacleSpawnTime(float time)
+    {
+        if (obstacleSpawnTime <= minObstacleSpawnTime)
+        {
+            obstacleSpawnTime = minObstacleSpawnTime;
+        }
+        obstacleSpawnTime -= time;
     }
 
     IEnumerator SpawnObstacleRoutine()
